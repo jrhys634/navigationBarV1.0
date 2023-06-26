@@ -1,0 +1,57 @@
+@import url("");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #f0f0f5;
+}
+
+/* Navigation Bar Styling */
+ul, li, a {
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #b3b3cc;
+    display: inline-block;
+    padding: 0 5px;
+}
+a:hover {
+    color: #5c5c8a;
+}
+
+/* Text Styling */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+form {
+    border-style: solid;
+    padding: 10px
+}
+
+/* Image Styling */
+img {
+    border-style: solid;
+    border-color: #5c5c8a;
+    border-width: 5px;
+    border-radius: 5%;
+}
+
+/* D.O.B */
+#dob {
+    font-size: 12px;
+    font-weight: bold;
+}
